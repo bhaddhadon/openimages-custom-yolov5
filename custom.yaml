@@ -1,0 +1,4 @@
+train: custom_data/images/train
+val: custom_data/images/validation
+nc: 1
+names: ["Box"]
