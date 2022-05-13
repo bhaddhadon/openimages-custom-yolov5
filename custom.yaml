@@ -1,4 +1,5 @@
+names:
+- Box
+nc: 1
 train: custom_data/images/train
 val: custom_data/images/validation
-nc: 1
-names: ["Box"]

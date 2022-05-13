@@ -4,6 +4,8 @@
 # #
 
 #### Steps
-1) Edit 'trg_class' and 'user_path' in custom_data.py and run. This would download images and labels, convert txt files into yolo format and transfer images into custom_data folder.
-2) run train.py with optional paramter specified in yolov5 repo
-3) use the best.pt weight of your preferred run iteration as a paramater to parse when running detect.py to either test image set in custom_data or your own test image set
+1) Open terminal. create new python3.8 conda env
+2) Edit 'trg_class' and 'user_path' in user_trg_config.yaml
+3) Open custom_data.ipynb and run. Select newly created env as kernel. Data download would require between 8 to 16GB space. This would download images and labels, convert txt files into yolo format and transfer images into custom_data folder.
+4) Open train_and_detect.ipynb. Run train.py with optional paramter specified in the code
+5) Prepare test images and run detect.py with optional parameter specified in the code

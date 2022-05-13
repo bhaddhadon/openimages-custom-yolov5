@@ -3,17 +3,22 @@
 # Base ----------------------------------------
 matplotlib>=3.2.2
 numpy>=1.18.5
-opencv-python>=4.1.1
+# opencv-python>=4.1.1
+opencv-contrib-python-headless
 Pillow>=7.1.2
-PyYAML>=5.3.1
+rsa==4.7.2
+pytest-cov>=2.0
+pytest-filter-subpackage>=0.1
+PyYAML==5.3.1
 requests>=2.23.0
 scipy>=1.4.1  # Google Colab version
 torch==1.10.1
 torchvision==0.11.2
 tqdm>=4.41.0
-fiftyone==0.15.1
-fiftyone-brain==0.8.2
-fiftyone-db==0.3.0
+# fiftyone==0.15.1
+# fiftyone-brain==0.8.2
+# fiftyone-db-ubuntu1604
+# fiftyone-db==0.3.0
 
 # Logging -------------------------------------
 tensorboard>=2.4.1
