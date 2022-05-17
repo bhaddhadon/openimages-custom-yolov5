@@ -1,6 +1,5 @@
 names:
-- Box
 - Vehicle registration plate
-nc: 2
+nc: 1
 train: custom_data/images/train
 val: custom_data/images/validation
