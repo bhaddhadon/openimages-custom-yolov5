@@ -1,0 +1,4 @@
+trg_class: 
+- Box
+- Vehicle registration plate
+user_path: /root
